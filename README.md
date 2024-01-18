@@ -34,3 +34,16 @@ La formation de Python pour web a pour but de bien former les participants dans 
 8. Paradigme de programmation
 9. Programmation sequencielle et parallelle
 10. Programmation Oriente Objet
+## Phase 2
+1. Modelisation
+2. La structure du Web
+3. Introduction sur MVC
+4. Gestion des bases de donnees en ORM
+5. Gestion des routes et des controleurs
+6. Gestion des permissions et securite
+7. Liaison du backend avec frontend
+8. Deployement
+## Phase 3 : Developpement des Rest API
+1. Utilisation d'un framework pour frontend Reactjs
+2. Utilisation d'un framework pour backend FastAPI
+3. Realisation du projet
