@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}Add Todo{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    Add Todo
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        
+                        <div class="form-group">
+                            <label for="content">Content</label>
+                            <textarea class="form-control" id="content" name="content" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="due_date">Due Date</label>
+                            <input type="date" class="form-control" id="due_date" name="due_date" value="{{ default_due_date }}" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Add Todo</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
